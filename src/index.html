@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <title>terkup</title>
 </head>
@@ -12,19 +13,19 @@
         <p>Kör alapú kúp térfogata</p>
         <div class="kupform">
             <div class="input">
-                <label for="radius">Sugár</label>
-                <input type="text" id="radius">
+                <label for="radius" class="form-label">Sugár</label>
+                <input type="text" id="radius" class="form-control">
             </div>
             <div class="input">
-                <label for="height">Magasság</label>
-                <input type="text" id="height">
+                <label for="height" class="form-label">Magasság</label>
+                <input type="text" id="height" class="form-control">
             </div>
             <div>
-                <button>Számít</button>
+                <button id="calcButton" class="btn btn-primary mt-2">Számít</button>
             </div>
             <div class="input">
-                <label for="volume">Térfogat</label>
-                <input type="text" id="volume">
+                <label for="volume"class="form-label">Térfogat</label>
+                <input type="text" id="volume" class="form-control">
             </div>
         </div>
     </div>
